@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rizzonomics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      background: #000;
-      color: #fff;
+      background: #f0ebe0;
+      color: #1a1a1a;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       min-height: 100vh;
       display: flex;
@@ -22,15 +23,13 @@
       text-align: center;
     }
     .logo {
+      font-family: 'Shrikhand', cursive;
       font-size: 48px;
-      font-weight: 900;
-      color: #FF6B00;
-      letter-spacing: -1px;
       margin-bottom: 8px;
     }
     .tagline {
       font-size: 16px;
-      color: #aaa;
+      color: #1a1a1a;
       margin-bottom: 48px;
     }
     .heading {
@@ -40,12 +39,12 @@
     }
     .subheading {
       font-size: 15px;
-      color: #aaa;
+      color: #555;
       margin-bottom: 32px;
       line-height: 1.5;
     }
     .steps {
-      background: #111;
+      background: #e0d9cc;
       border-radius: 20px;
       padding: 24px;
       text-align: left;
@@ -59,7 +58,7 @@
     }
     .step:last-child { margin-bottom: 0; }
     .step-number {
-      background: #FF6B00;
+      background: #ff4d00;
       color: #fff;
       font-weight: 700;
       font-size: 14px;
@@ -76,18 +75,7 @@
       line-height: 1.5;
       padding-top: 4px;
     }
-    .step-text strong { color: #fff; }
-    .download-btn {
-      display: block;
-      background: #FF6B00;
-      color: #fff;
-      font-size: 17px;
-      font-weight: 700;
-      padding: 18px 24px;
-      border-radius: 14px;
-      text-decoration: none;
-      margin-bottom: 12px;
-    }
+    .step-text strong { color: #1a1a1a; }
   </style>
   <script>
     var ua = navigator.userAgent || navigator.vendor || window.opera;
@@ -102,7 +90,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="logo">Rizzonomics</div>
+    <div class="logo"><span style="color:#ff4d00">Rizz</span><span style="color:#1a1a1a">onomics</span></div>
     <div class="tagline">Your AI Wingman</div>
     <div class="heading">Open in Your Browser</div>
     <div class="subheading">To download the app, please open this page in Safari or Chrome.</div>
@@ -120,7 +108,6 @@
         <div class="step-text">You'll be automatically redirected to download the app</div>
       </div>
     </div>
-    <a class="download-btn" href="https://apps.apple.com/us/app/rizzonomics-ai-wingman/id6760429232">Download on App Store</a>
   </div>
 </body>
 </html>
