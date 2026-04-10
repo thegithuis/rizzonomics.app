@@ -49,6 +49,7 @@
       border-radius: 20px;
       padding: 24px;
       text-align: left;
+      margin-bottom: 32px;
     }
     .step {
       display: flex;
@@ -76,19 +77,18 @@
       padding-top: 4px;
     }
     .step-text strong { color: #fff; }
-  </style>
-  <script>
-    var ua = navigator.userAgent || navigator.vendor || window.opera;
-    if (/instagram|tiktok|fbav|fban/i.test(ua)) {
-      // Inside TikTok or Instagram - show the static page, do nothing
-    } else {
-      if (/android/i.test(ua)) {
-        window.location.href = "https://rizzonomics.app/tiktok";
-      } else {
-        window.location.href = "https://apps.apple.com/us/app/rizzonomics-ai-wingman/id6760429232";
-      }
+    .download-btn {
+      display: block;
+      background: #FF6B00;
+      color: #fff;
+      font-size: 17px;
+      font-weight: 700;
+      padding: 18px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      margin-bottom: 12px;
     }
-  </script>
+  </style>
 </head>
 <body>
   <div class="container">
@@ -110,6 +110,7 @@
         <div class="step-text">You'll be automatically redirected to download the app</div>
       </div>
     </div>
+    <a class="download-btn" href="https://apps.apple.com/us/app/rizzonomics-ai-wingman/id6760429232">Download on App Store</a>
   </div>
 </body>
 </html>
