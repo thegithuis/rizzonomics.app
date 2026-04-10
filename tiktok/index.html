@@ -79,7 +79,9 @@
   </style>
   <script>
     var ua = navigator.userAgent || navigator.vendor || window.opera;
-    if (!/instagram|tiktok|fbav|fban/i.test(ua)) {
+    if (/instagram|tiktok|fbav|fban/i.test(ua)) {
+      // Inside TikTok or Instagram - show the static page, do nothing
+    } else {
       if (/android/i.test(ua)) {
         window.location.href = "https://rizzonomics.app";
       } else {
