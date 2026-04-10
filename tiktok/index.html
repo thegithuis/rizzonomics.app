@@ -89,6 +89,16 @@
       margin-bottom: 12px;
     }
   </style>
+  <script>
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    if (!/musical_ly|trill|instagram|fbav|fban/i.test(ua)) {
+      if (/android/i.test(ua)) {
+        window.location.href = "https://rizzonomics.app/tiktok";
+      } else {
+        window.location.href = "https://apps.apple.com/us/app/rizzonomics-ai-wingman/id6760429232";
+      }
+    }
+  </script>
 </head>
 <body>
   <div class="container">
